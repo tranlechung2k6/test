@@ -1,5 +1,5 @@
 #!/bin/bash
-ket_qua=$(bash tong.sh 2 3)
+ket_qua=$(bash src/tong.sh 2 3)
 if [ "$ket_qua" = "5" ]; then
   echo "TEST PASS"
   exit 0
